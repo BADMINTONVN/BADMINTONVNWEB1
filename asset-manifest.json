@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/BADMINTONVNWEB1/static/css/main.8d228e34.chunk.css",
+    "main.js": "/BADMINTONVNWEB1/static/js/main.a33cf545.chunk.js",
+    "main.js.map": "/BADMINTONVNWEB1/static/js/main.a33cf545.chunk.js.map",
+    "runtime-main.js": "/BADMINTONVNWEB1/static/js/runtime-main.ca7f3f79.js",
+    "runtime-main.js.map": "/BADMINTONVNWEB1/static/js/runtime-main.ca7f3f79.js.map",
+    "static/css/2.81ec1778.chunk.css": "/BADMINTONVNWEB1/static/css/2.81ec1778.chunk.css",
+    "static/js/2.562966ef.chunk.js": "/BADMINTONVNWEB1/static/js/2.562966ef.chunk.js",
+    "static/js/2.562966ef.chunk.js.map": "/BADMINTONVNWEB1/static/js/2.562966ef.chunk.js.map",
+    "index.html": "/BADMINTONVNWEB1/index.html",
+    "static/css/2.81ec1778.chunk.css.map": "/BADMINTONVNWEB1/static/css/2.81ec1778.chunk.css.map",
+    "static/css/main.8d228e34.chunk.css.map": "/BADMINTONVNWEB1/static/css/main.8d228e34.chunk.css.map",
+    "static/js/2.562966ef.chunk.js.LICENSE.txt": "/BADMINTONVNWEB1/static/js/2.562966ef.chunk.js.LICENSE.txt",
+    "static/media/styles.scss": "/BADMINTONVNWEB1/static/media/fa-solid-900.d279d01b.svg",
+    "static/media/pass.2590675e.svg": "/BADMINTONVNWEB1/static/media/pass.2590675e.svg",
+    "static/media/user.82ea1694.svg": "/BADMINTONVNWEB1/static/media/user.82ea1694.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca7f3f79.js",
+    "static/css/2.81ec1778.chunk.css",
+    "static/js/2.562966ef.chunk.js",
+    "static/css/main.8d228e34.chunk.css",
+    "static/js/main.a33cf545.chunk.js"
+  ]
+}
