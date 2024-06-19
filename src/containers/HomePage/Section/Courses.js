@@ -29,27 +29,27 @@ class Courses extends Component {
                     <Slider {...settings}>
                         <div className="img-customize1">
                             <div className="img-court1" /> 
-                            <div>LỚP HỌC HỒNG NGA</div>
+                            <div className='position'>LỚP HỌC HỒNG NGA</div>
                         </div>
                         <div className="img-customize2">
                             <div className="img-court2" /> 
-                            <div> VIỆT BADMINTON</div>
+                            <div className='position'> VIỆT BADMINTON</div>
                         </div>
                         <div className="img-customize3">
                             <div className="img-court3" /> 
-                            <div>LỚP HỌC LẠC AN</div>
+                            <div className='position'>LỚP HỌC LẠC AN</div>
                         </div>
                         <div className="img-customize4">
                             <div className="img-court4" /> 
-                            <div>LỚP HỌC NHTT</div>
+                            <div className='position'>LỚP HỌC NHTT</div>
                         </div>
                         <div className="img-customize5">
                             <div className="img-court5" /> 
-                            <div>LỚP HỌC HÈ - BÌNH THẠNH</div>
+                            <div className='position'>LỚP HỌC HÈ - BÌNH THẠNH</div>
                         </div>
                         <div className="img-customize6">
                             <div className="img-court6" /> 
-                            <div>LỚP HỌC QUẬN 1</div>
+                            <div className='position'>LỚP HỌC QUẬN 1</div>
                         </div>
                     </Slider>
 
@@ -63,7 +63,7 @@ class Courses extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLoggedIn: state.admin.isLoggedIn
+        isLoggedIn: state.user.isLoggedIn
     };
 };
 

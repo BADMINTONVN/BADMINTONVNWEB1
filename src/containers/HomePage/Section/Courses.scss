@@ -18,7 +18,8 @@
             .title-court {
                 font-size: 25px;
                 font-weight: 600;
-                //padding-top: 20px;                    
+                //padding-top: 20px; 
+                color: rgb(29, 5, 136);                   
             }
 
             .button-court {
@@ -152,6 +153,15 @@
             background-size: cover;
             background-color: white;
         }
+    }
+
+    .position {
+        font-size: 18px;
+        color: rgb(29, 5, 136);
+        margin-top: 10px;
+        //margin-left: 25px;
+
+
     }
 
 }

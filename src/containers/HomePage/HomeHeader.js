@@ -15,14 +15,9 @@ class HomeHeader extends Component {
                     <div className="home-header-container">
                         <div className="home-header-content">
 
-                            <div className="left-content"> 
+                            <div className="left-content">
 
-                                                        
-                            <FontAwesomeIcon icon="fa-solid fa-bars" />
-                            <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
-                                                    
-                            <i className="fa-solid fa-bars"></i>
-
+                                <i className="fas fa-bars"></i>
 
                                 <div className="header-logo"></div>
                             </div>
@@ -53,7 +48,7 @@ class HomeHeader extends Component {
 
                             <div className="right-content">
 
-                                <i class="fa-solid fa-arrow-right"></i>
+                                <i class="far fa-question-circle"></i>
 
                             </div>
                         </div>
@@ -70,7 +65,7 @@ class HomeHeader extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLoggedIn: state.admin.isLoggedIn
+        isLoggedIn: state.user.isLoggedIn
     };
 };
 

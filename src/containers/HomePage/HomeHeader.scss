@@ -35,8 +35,9 @@
             }
 
             i {
-                font-size: 50px;
+                font-size: 40px;
                 z-index: 1000000;
+                cursor: pointer;
             }
         }
 
@@ -58,13 +59,13 @@
             //border: 1px solid gray;
 
             i {
-                font-size: 50px;
-                color: red;
+                font-size: 40px;
+                color: blue;
                 cursor: pointer;
                 margin-left: 40px;
                 //padding-left: 200px;
-                z-index: 1000000;
-                background-color: goldenrod;
+                //z-index: 1000000;
+                //background-color: goldenrod;
 
             }
         }

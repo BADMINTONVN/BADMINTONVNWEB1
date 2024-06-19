@@ -29,27 +29,27 @@ class Tournaments extends Component {
                     <Slider {...settings}>
                         <div className="img-customize1">
                             <div className="img-court1" /> 
-                            <div>ĐẠI HỌC CNTT</div>
+                            <div className='position'>ĐẠI HỌC CNTT</div>
                         </div>
                         <div className="img-customize2">
                             <div className="img-court2" /> 
-                            <div>GIẢI CẦU LÔNG ABZ</div>
+                            <div className='position'>GIẢI CẦU LÔNG ABZ</div>
                         </div>
                         <div className="img-customize3">
                             <div className="img-court3" /> 
-                            <div>GIẢI CẦU LÔNG HẢI HIỀN</div>
+                            <div className='position'>GIẢI CẦU LÔNG HẢI HIỀN</div>
                         </div>
                         <div className="img-customize4">
                             <div className="img-court4" /> 
-                            <div>GIẢI CẦU LÔNG YONEX-SUNRISE</div>
+                            <div className='position'>GIẢI YONEX-SUNRISE</div>
                         </div>
                         <div className="img-customize5">
                             <div className="img-court5" /> 
-                            <div>GIẢI CẦU LÔNG PHONG TRÀO HCM</div>
+                            <div className='position'>GIẢI PHONG TRÀO HCM</div>
                         </div>
                         <div className="img-customize6">
                             <div className="img-court6" /> 
-                            <div>GIẢI CẦU LÔNG TDH</div>
+                            <div className='position'>GIẢI CẦU LÔNG TDH</div>
                         </div>
                     </Slider>
 
@@ -63,7 +63,7 @@ class Tournaments extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLoggedIn: state.admin.isLoggedIn
+        isLoggedIn: state.user.isLoggedIn
     };
 };
 

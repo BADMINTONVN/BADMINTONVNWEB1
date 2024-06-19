@@ -29,27 +29,27 @@ class Shops extends Component {
                     <Slider {...settings}>
                         <div className="img-customize1">
                             <div className="img-court1" />
-                            <div>SHOP YONEX</div>
+                            <div className='position'>SHOP YONEX</div>
                         </div>
                         <div className="img-customize2">
                             <div className="img-court2" />
-                            <div>SHOP LI NING</div>
+                            <div className='position'>SHOP LI NING</div>
                         </div>
                         <div className="img-customize3">
                             <div className="img-court3" />
-                            <div>SHOP VICTOR</div>
+                            <div className='position'>SHOP VICTOR</div>
                         </div>
                         <div className="img-customize4">
                             <div className="img-court4" />
-                            <div>SHOP VNB</div>
+                            <div className='position'>SHOP VNB</div>
                         </div>
                         <div className="img-customize5">
                             <div className="img-court5" />
-                            <div>SHOP SÀI GÒN</div>
+                            <div className='position'>SHOP SÀI GÒN</div>
                         </div>
                         <div className="img-customize6">
                             <div className="img-court6" />
-                            <div>SHOP BÌNH CHÁNH</div>
+                            <div className='position'>SHOP BÌNH CHÁNH</div>
                         </div>
                     </Slider>
 
@@ -63,7 +63,7 @@ class Shops extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLoggedIn: state.admin.isLoggedIn
+        isLoggedIn: state.user.isLoggedIn
     };
 };
 

@@ -20,7 +20,7 @@ class HomePage extends Component {
                 <Courses />
                 <Shops />
                 <About />
-                <HomeFooter/>
+                <HomeFooter />
                 <div style={{ height: '300px' }}></div>
             </div>
 
@@ -31,7 +31,7 @@ class HomePage extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLoggedIn: state.admin.isLoggedIn
+        isLoggedIn: state.user.isLoggedIn
     };
 };
 

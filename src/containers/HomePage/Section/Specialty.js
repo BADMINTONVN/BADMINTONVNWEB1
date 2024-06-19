@@ -28,28 +28,28 @@ class Specialty extends Component {
 
                     <Slider {...settings}>
                         <div className="img-customize1">
-                            <div className="img-court1" /> 
-                            <div>SÂN CẦU LÔNG TADA</div>
+                            <div className="img-court1" />
+                            <div className='position'> SÂN CẦU LÔNG TADA</div>
                         </div>
                         <div className="img-customize2">
-                            <div className="img-court2" /> 
-                            <div>SÂN NGUYỄN THƯỢNG HIỀN</div>
+                            <div className="img-court2" />
+                            <div className='position'>SÂN NGUYỄN THƯỢNG HIỀN</div>
                         </div>
                         <div className="img-customize3">
-                            <div className="img-court3" /> 
-                            <div>SÂN CẦU LÔNG HOA SEN</div>
+                            <div className="img-court3" />
+                            <div className='position'>SÂN CẦU LÔNG HOA SEN</div>
                         </div>
                         <div className="img-customize4">
-                            <div className="img-court4" /> 
-                            <div>SÂN CẦU LÔNG CHÂU DƯƠNG</div>
+                            <div className="img-court4" />
+                            <div className='position'>SÂN CẦU LÔNG CHÂU DƯƠNG</div>
                         </div>
                         <div className="img-customize5">
-                            <div className="img-court5" /> 
-                            <div>SÂN CẦU LÔNG SƠN TẠ</div>
+                            <div className="img-court5" />
+                            <div className='position'>SÂN CẦU LÔNG SƠN TẠ</div>
                         </div>
                         <div className="img-customize6">
-                            <div className="img-court6" /> 
-                            <div>SÂN CẦU LÔNG TRƯỜNG CHINH</div>
+                            <div className="img-court6" />
+                            <div className='position'>SÂN CẦU LÔNG TRƯỜNG CHINH</div>
                         </div>
                     </Slider>
 
@@ -63,7 +63,7 @@ class Specialty extends Component {
 
 const mapStateToProps = state => {
     return {
-        isLoggedIn: state.admin.isLoggedIn
+        isLoggedIn: state.user.isLoggedIn
     };
 };
 

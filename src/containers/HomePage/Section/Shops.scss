@@ -13,12 +13,13 @@
         .court-header {
             height: 60px;
             //border: 1px solid green;
-            padding-top: 20px; 
+            padding-top: 20px;
 
             .title-court {
                 font-size: 25px;
                 font-weight: 600;
-                //padding-top: 20px;                    
+                //padding-top: 20px;
+                color: rgb(13, 179, 190);
             }
 
             .button-court {
@@ -152,6 +153,15 @@
             background-size: cover;
             background-color: white;
         }
+    }
+
+    .position {
+        font-size: 18px;
+        color: rgb(13, 179, 190);
+        margin-top: 10px;
+        margin-left: 65px;
+
+
     }
 
 }
